@@ -3,7 +3,7 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '2.3.3'
 
-gem 'rails', '~> 5.2.1'
+gem 'rails'
 
 gem 'sqlite3'
 
@@ -20,10 +20,18 @@ gem 'bootstrap-sass', '~> 3.3', '>= 3.3.7'
 gem 'simple_form', '~> 4.0', '>= 4.0.1'
 
 gem 'devise', '~> 4.2'
+#
+# gem 'mimemagic', '~> 0.3.2'
+
+gem 'paperclip'
+
+gem 'jquery-rails'
+
+gem 'masonry-rails', '~> 0.2.4'
 
 gem 'coffee-rails', '~> 4.2'
 
-gem 'turbolinks', '~> 5'
+gem 'jquery-turbolinks', '~> 2.1'
 
 gem 'jbuilder', '~> 2.5'
 
