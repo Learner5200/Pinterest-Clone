@@ -1,11 +1,11 @@
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-ruby '2.3.3'
+ruby '2.3.7'
 
 gem 'rails'
 
-gem 'sqlite3'
+gem 'pg'
 
 gem 'puma', '~> 3.11'
 
@@ -20,8 +20,8 @@ gem 'bootstrap-sass', '~> 3.3', '>= 3.3.7'
 gem 'simple_form', '~> 4.0', '>= 4.0.1'
 
 gem 'devise', '~> 4.2'
-#
-# gem 'mimemagic', '~> 0.3.2'
+
+gem 'rails_12factor', group: :production
 
 gem 'paperclip'
 
@@ -48,7 +48,6 @@ group :development do
 
   gem 'web-console', '>= 3.3.0'
   gem 'listen', '>= 3.0.5', '< 3.2'
-
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
 end
