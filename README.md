@@ -1,24 +1,3 @@
-# README
+# Dogterest
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+This was a pinterest clone made by following a [tutorial by Mackenzie Child](https://www.youtube.com/watch?v=abcnfFS_DS8), designed to teach myself how to set up a web application in Rails. Users can sign up, log in and out, and create, edit, view, like and delete pins.
